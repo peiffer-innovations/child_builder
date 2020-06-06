@@ -1,0 +1,19 @@
+name: child_builder
+description: A very simple builder that can be used by UI frameworks to customize / wrap internal widgets.
+homepage: https://github.com/peiffer-innovations/child_builder
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+analyzer:
+  exclude: [lib/generated/**]
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
