@@ -19,6 +19,23 @@ void main() {
     expect(found, findsOneWidget);
   });
 
+  testWidgets('no child', (WidgetTester tester) async {
+    try {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: ChildBuilder(
+              child: null,
+            ),
+          ),
+        ),
+      );
+      fail('An exception should have been thrown');
+    } catch (e) {
+      // pass
+    }
+  });
+
   testWidgets('wrapped in column', (WidgetTester tester) async {
     await tester.pumpWidget(
       MaterialApp(

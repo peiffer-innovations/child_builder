@@ -10,13 +10,14 @@ class ChildBuilder extends StatelessWidget {
   /// immediately return the assigned [child].  When the [builder] is set, this
   /// will pass the [child] to the [builder] and return the result.
   ChildBuilder({
-    Key? key,
+    Key key,
     this.builder,
-    required this.child,
-  }) : super(key: key);
+    @required this.child,
+  })  : assert(child != null),
+        super(key: key);
 
   /// Optional builder that can be used to wrap the [child].
-  final ChildWidgetBuilder? builder;
+  final ChildWidgetBuilder builder;
 
   // Child widget to wrap.
   final Widget child;
@@ -24,7 +25,7 @@ class ChildBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) => builder == null
       ? child
-      : builder!(
+      : builder(
           context,
           child,
         );
