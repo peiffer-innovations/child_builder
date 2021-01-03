@@ -1,4 +1,4 @@
-## [1.1.0] - Janurary 3rd, 2021
+## [1.1.0-nullsafety] - Janurary 3rd, 2021
 
 * Updated to nullsafety
 
