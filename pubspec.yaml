@@ -2,10 +2,10 @@ name: child_builder
 description: A very simple builder that can be used by UI frameworks to customize / wrap internal widgets.
 homepage: https://github.com/peiffer-innovations/child_builder
 
-version: 1.0.0+2
+version: 2.0.0
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 analyzer:
   exclude: [lib/generated/**]

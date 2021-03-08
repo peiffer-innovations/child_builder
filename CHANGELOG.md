@@ -1,3 +1,8 @@
+## [2.0.0] - March 7th, 2021
+
+* Null Safety
+
+
 ## [1.0.0+2] - August 22nd, 2020
 
 * GH Metadata updates
