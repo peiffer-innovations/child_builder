@@ -1,3 +1,8 @@
+## [2.0.0+1] - November 14th, 2021
+
+* Switched GH publish action
+
+
 ## [2.0.0] - March 7th, 2021
 
 * Null Safety
