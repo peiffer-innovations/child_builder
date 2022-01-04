@@ -1,3 +1,8 @@
+## [2.0.0+2] - January 3rd, 2021
+
+* Dart 2.15
+
+
 ## [2.0.0+1] - November 14th, 2021
 
 * Switched GH publish action
