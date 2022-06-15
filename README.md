@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [child_builder](#child_builder)
+  - [Using the library](#using-the-library)
+  - [Example](#example)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # child_builder
 
 A builder that provides the ability for UI frameworks to wrap inner widgets so that they can be customized either for look & feel or to assist with things like automated or unit testing.
