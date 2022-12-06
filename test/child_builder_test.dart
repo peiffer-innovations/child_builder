@@ -8,13 +8,13 @@ void main() {
       MaterialApp(
         home: Scaffold(
           body: ChildBuilder(
-            child: Text('Hello World!'),
+            child: const Text('Hello World!'),
           ),
         ),
       ),
     );
 
-    var found = find.text('Hello World!');
+    final found = find.text('Hello World!');
 
     expect(found, findsOneWidget);
   });
@@ -28,17 +28,17 @@ void main() {
               mainAxisSize: MainAxisSize.min,
               children: [
                 child,
-                Text('Hello Universe!'),
+                const Text('Hello Universe!'),
               ],
             ),
-            child: Text('Hello World!'),
+            child: const Text('Hello World!'),
           ),
         ),
       ),
     );
 
-    var world = find.text('Hello World!');
-    var universe = find.text('Hello Universe!');
+    final world = find.text('Hello World!');
+    final universe = find.text('Hello Universe!');
 
     expect(world, findsOneWidget);
     expect(universe, findsOneWidget);
