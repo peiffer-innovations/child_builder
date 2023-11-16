@@ -9,11 +9,11 @@ class ChildBuilder extends StatelessWidget {
   /// When performing a build, if the [builder] is not set, this will
   /// immediately return the assigned [child].  When the [builder] is set, this
   /// will pass the [child] to the [builder] and return the result.
-  ChildBuilder({
-    Key? key,
+  const ChildBuilder({
+    super.key,
     this.builder,
     required this.child,
-  }) : super(key: key);
+  });
 
   /// Optional builder that can be used to wrap the [child].
   final ChildWidgetBuilder? builder;
